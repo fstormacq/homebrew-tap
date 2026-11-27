@@ -2,9 +2,9 @@
 class PulseCli < Formula
   desc "Temperatures and fan control for Apple silicon Macs, from the command-line"
   homepage "https://github.com/fstormacq/pulse"
-  url "https://github.com/fstormacq/pulse/releases/download/v1.0.1/pulse-cli-1.0.1-arm64.tar.gz"
-  version "1.0.1"
-  sha256 "16369c2384677f32e62dee6ff347e041aec79a27b0386d9cba898f002a36dfcd"
+  url "https://github.com/fstormacq/pulse/releases/download/v1.0.2/pulse-cli-1.0.2-arm64.tar.gz"
+  version "1.0.2"
+  sha256 "d717e4631d9a7cf44fc13e032be4d54590964a708104a8202ea1e3bd4ba59ec3"
   license "MIT"
 
   livecheck do
