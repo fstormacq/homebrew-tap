@@ -2,9 +2,9 @@
 class PulseCli < Formula
   desc "Temperatures and fan control for Apple silicon Macs, from the command-line"
   homepage "https://github.com/fstormacq/pulse"
-  url "https://github.com/fstormacq/pulse/releases/download/v1.0.0/pulse-cli-1.0.0-arm64.tar.gz"
-  version "1.0.0"
-  sha256 "e6c686ac69dec9cc5b1eedddd8aadabd6f4d929bc5d44cd07ef545243fe14036"
+  url "https://github.com/fstormacq/pulse/releases/download/v1.0.1/pulse-cli-1.0.1-arm64.tar.gz"
+  version "1.0.1"
+  sha256 "16369c2384677f32e62dee6ff347e041aec79a27b0386d9cba898f002a36dfcd"
   license "MIT"
 
   livecheck do
@@ -24,10 +24,10 @@ class PulseCli < Formula
     <<~EOS
       Install the fan control service once:
         sudo pulse daemon install
-      After `brew upgrade pulse-cli`, the next pulse command updates the service
+      After `brew upgrade fstormacq/tap/pulse-cli`, the next pulse command updates the service
       (it asks for your password).
 
-      The Pulse app (brew install --cask pulse) includes this CLI: install one or the other.
+      The Pulse app (brew install --cask fstormacq/tap/pulse) includes this CLI: install one or the other.
     EOS
   end
 
